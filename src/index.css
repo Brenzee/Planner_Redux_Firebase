@@ -6,10 +6,9 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background: url(/img/mario-bg.png) no-repeat;
+  background: lightblue no-repeat;
   background-size: 100%;
   background-position: bottom;
-  background-color: #95e8f3;
   min-height: 100%;
 }
 
@@ -27,6 +26,6 @@ input[type="text"]:not(.browser-default):focus:not([readonly]),
 input[type="email"]:not(.browser-default):focus:not([readonly]),
 input[type="password"]:not(.browser-default):focus:not([readonly]),
 textarea.materialize-textarea:focus:not([readonly]) {
-  border-color: #ec407a;
+  border-color: lightblue;
   box-shadow: none;
 }

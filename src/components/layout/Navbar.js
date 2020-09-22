@@ -7,7 +7,6 @@ import { useSelector } from "react-redux";
 function Navbar() {
   const auth = useSelector((state) => state.firebase.auth);
   const profile = useSelector((state) => state.firebase.profile);
-  console.log(useSelector((state) => state));
   const links = auth.uid ? (
     <SignedInLinks profile={profile} />
   ) : (
