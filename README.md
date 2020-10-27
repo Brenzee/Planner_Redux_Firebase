@@ -1,4 +1,4 @@
-Technology used in this project:
+# Technology used in this project:
 
 1. ReactJS
 2. React Redux
