@@ -1,4 +1,7 @@
-This project is Created based on:
+Technology used in this project:
 
-1. React Redux
-2. Firebase (firestore and auth)
+1. ReactJS
+2. React Redux
+3. Moment for date formatting
+4. React Router
+5. Firebase (Firestore, Cloud Functions and Auth)
