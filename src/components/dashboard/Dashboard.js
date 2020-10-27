@@ -5,7 +5,7 @@ import { useSelector } from "react-redux";
 import { firestoreConnect } from "react-redux-firebase";
 import { Redirect } from "react-router-dom";
 
-function Dashboard(props) {
+function Dashboard() {
   const projects = useSelector((state) => state.firestore.ordered.projects);
   const auth = useSelector((state) => state.firebase.auth);
   const notifications = useSelector(
